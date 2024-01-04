@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タマムシハンティング</title>
+    <link rel="stylesheet" href="AIM.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <input type="button" id="hard" value="Hard" class="difficulty" onclick="HardB()">
+    <input type="button" id="normal" value="Normal" class="difficulty" onclick="NormalB()">
+    <input type="button" id="easy" value="Easy" class="difficulty" onclick="EasyB()">
+
+    <input type="checkbox" name="tamamusi" id="tamamusi">
+
+    <div class="_height" id="_height"></div>
+    <div class="_row">
+        <div class="_width" id="_width"></div>
+        <label for="tamamusi">
+            <img id="_target" src="タマムシ.png" alt="" class="_target">
+        </label>
+    </div>
+    </div>
+    <script src="AIM.js"></script>
+</body>
+
+</html>
